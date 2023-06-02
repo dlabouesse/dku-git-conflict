@@ -28,8 +28,26 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "Age"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "29.69911764705882"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -55,7 +73,20 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Embarked": 100,
+    "Survived": 100,
+    "Pclass": 100,
+    "Ticket": 100,
+    "PassengerId": 100,
+    "Parch": 100,
+    "Cabin": 100,
+    "Sex": 100,
+    "SibSp": 100,
+    "Age": 134,
+    "Name": 300,
+    "Fare": 134
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
