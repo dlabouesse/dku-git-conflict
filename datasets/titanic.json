@@ -60,11 +60,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1685693318600,
+    "lastModifiedOn": 1685693318808,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -77,7 +77,6 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "bfeebfb99c5636ed12c062d7f46a1344a3bae2dcf808ec79ba78f8ff7c5a5a63",
     "uploadConnection": "Default (in DSS data dir.)",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
