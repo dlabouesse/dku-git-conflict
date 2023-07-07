@@ -9,7 +9,7 @@ from dataiku import pandasutils as pdu
 # TODO: Write here your actual code that computes the outputs
 # NB: DSS supports several kinds of APIs for reading and writing data. Please see doc.
 
-git_tmp_df = ... # Compute a Pandas dataframe to write into git_tmp
+git_tmp_df = pd.DataFrame({"a": [43]})
 
 
 # Write recipe outputs
