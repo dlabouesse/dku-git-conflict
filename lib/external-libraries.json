@@ -4,7 +4,11 @@
       "remote": "git@github.com:dlabouesse/dku-lib-tmp.git",
       "checkout": "main",
       "remotePath": "",
-      "isDirty": true
+      "lastHash": "59abc40a88e9914658af0561440c5190ec078858",
+      "conflictingFiles": [],
+      "resolvedFiles": [],
+      "faultyHash": "",
+      "isDirty": false
     }
   },
   "pythonPath": [
